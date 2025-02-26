@@ -10,7 +10,7 @@ body {
 
 .navbar {
     margin: 0;
-    padding: 20px 20px 10px;
+    padding: 30px 60px;
 }
 
 .nav-container {
@@ -60,6 +60,7 @@ body {
     color: black;
     cursor: pointer;
     border: 1px solid black;
+    font-weight: bold;
 }
 
 .toggle-menu {
@@ -72,15 +73,19 @@ body {
     display: flex;
     flex-direction: row;
     background-color: white;
-    padding: 100px 20px;
+    padding: 100px 100px;
+    /* border: 1px solid grey; */
 }
 
 .profile {
-    margin-right: 20px;
     padding: 20px;
-    border: 1px solid grey;
-    font-size: 1.25rem;
     font-family: cursive;
+    /* border: 1px solid grey; */
+}
+
+.profile h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
 }
 
 .profile img {
@@ -88,12 +93,319 @@ body {
     margin-bottom: 10px;
 }
 
+.social-media .fa {
+    background: black;
+    color: white;
+    padding: 8px;
+    font-size: 5x;
+    border-radius: 25%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.fa:hover {
+    background: white;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
 aside {
-    border: 1px solid grey;
     padding: 20px;
+    margin-left: 50px;
+    width: 40%;
+    /* border: 1px solid grey; */
 }
 
 .hero-text {
+    padding-top: 30px;
+}
+
+.hero-text h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+aside button {
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+aside button:hover {
+    background-color: white;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.projects-container {
+    padding: 50px 30px;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.section-title h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.projects-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.card {
+    width: 100%;
+    padding: 0;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.card-img img {
+    width: 100%;
+    height: 150px;
+}
+
+.card-description {
+    padding: 20px;
+}
+
+.card-description h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card-description p {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.label {
+    font-size: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.label span {
+    color: white;
+    background-color: grey;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.card-description a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.tech-stack-container {
+    padding: 20px 30px;
+}
+
+.tech-stack-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.tech-card {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.tech-card h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.tech-label {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tech-label span {
+    color: white;
+    background-color: grey;
+    padding: 8px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.contact-container {
+    padding: 50px 30px;
+}
+
+.contact-form {
+    padding: 0 30px;
+}
+
+form {
+    display: flex;
+    padding: 20px 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 16px;
+} 
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.contact-btn {
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+footer {
+    border-top: 1px solid grey;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer-menu {
+    list-style: none;
+    display: flex;
+}
+
+.footer-menu li {
+    margin-right: 20px;
+}
+
+.footer-menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+    .menu.active {
+        display: flex;
+    }
     
-    
+    .toggle-menu {
+        display: block;
+        color: black;
+        font-size: 1.5rem;
+    }
+
+    .navbar {
+        padding: 20px 30px;
+    }
+
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu li {
+        margin: 10px 0;
+    }
+
+    .hero-container {
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+
+    aside {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .projects-card {
+        flex-direction: column;
+    }
+
+    .tech-stack-card {
+        flex-direction: column;
+    }
+
+    form {
+        padding: 20px;
+    }
+
+    .tech-label span {
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-container p {
+        margin: 10px 0;
+    }
+
+    .footer-menu li {
+        margin: 10px 0;
+    }
 }
