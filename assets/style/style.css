@@ -10,7 +10,7 @@ body {
 
 .navbar {
     margin: 0;
-    padding: 30px 60px;
+    padding: 30px 100px;
 }
 
 .nav-container {
@@ -74,6 +74,7 @@ body {
 }
 
 .hero-container {
+    justify-content: center;
     display: flex;
     flex-direction: row;
     background-color: white;
@@ -258,16 +259,19 @@ aside button:hover {
 }
 
 .contact-container {
-    padding: 50px 30px;
+    padding: 50px 20px;
 }
 
 .contact-form {
-    padding: 0 30px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 20px;
 }
 
 form {
     display: flex;
-    padding: 20px 100px;
+    padding: 20px 0;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -280,19 +284,14 @@ form {
 
 .form-group label {
     font-size: 16px;
+    margin-bottom: 5px;
 } 
 
-.form-group input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid grey;
-    border-radius: 5px;
-}
-
+.form-group input,
 .form-group textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid grey;
+    border: 1px solid #ddd;
     border-radius: 5px;
 }
 
@@ -302,6 +301,14 @@ form {
     color: #fff;
     border: 1px solid #fff;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-btn:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    font-weight: bold;
 }
 
 footer {
@@ -337,6 +344,10 @@ footer p {
 }
 
 @media (max-width: 768px) {
+    .navbar {
+        padding: 20px 50px;
+    }
+
     .menu {
         display: none;
     }
@@ -404,15 +415,29 @@ footer p {
 
     .tech-stack-card {
         flex-direction: column;
+        align-items: center;
     }
 
-    form {
-        padding: 20px;
+    .tech-card {
+        width: 100%;
+        margin: 10px 0;
     }
+
+    /* form {
+        padding: 20px;
+    } */
 
     .tech-label span {
         display: inline-block;
         margin-bottom: 5px;
+    }
+
+    .contact-container {
+        padding: 20px;
+    }
+
+    .contact-form {
+        padding: 20px;
     }
 
     .footer-container {
@@ -432,3 +457,25 @@ footer p {
         margin: 10px 0;
     }
 }
+
+@media (max-width: 1052px) {
+    .tech-stack-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tech-card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    /* .contact-form {
+        padding: 0 50px;
+    } */
+}
+
+/* @media (min-width: 1052px) {
+    .contact-form {
+        padding: 0 400px;
+    }
+} */
