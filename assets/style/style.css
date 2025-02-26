@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    margin: 0;
+    padding: 20px 20px 10px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.menu li a:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.resume-btn {
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.resume-btn:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.toggle-menu {
+    display: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 100px 20px;
+}
+
+.profile {
+    margin-right: 20px;
+    padding: 20px;
+    border: 1px solid grey;
+    font-size: 1.25rem;
+    font-family: cursive;
+}
+
+.profile img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+aside {
+    border: 1px solid grey;
+    padding: 20px;
+}
+
+.hero-text {
+    
+    
+}
