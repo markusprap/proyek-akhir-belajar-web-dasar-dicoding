@@ -78,24 +78,24 @@ body {
     display: flex;
     flex-direction: row;
     background-color: white;
-    padding: 100px 100px;
+    padding: 0px 100px 50px;
     /* border: 1px solid grey; */
 }
 
 .profile {
-    padding: 0 20px;
+    padding: 200px 20px;
     font-family: cursive;
     /* border: 1px solid grey; */
 }
 
 .profile h1 {
     font-size: 2rem;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
-.profile img {
-    width: 80px;
-    margin-bottom: 10px;
+.profile h3{
+    font-size: 1.25rem;
+    margin-bottom: 30px;
 }
 
 .social-media .fa {
@@ -122,34 +122,10 @@ aside {
     /* border: 1px solid grey; */
 }
 
-.hero-text {
-    padding-top: 30px;
-}
-
-.hero-text h3 {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-}
-
-.hero-text p {
-    font-size: 14px;
-    margin-bottom: 40px;
-}
-
-aside button {
-    padding: 10px 20px;
-    background-color: black;
-    color: #fff;
-    border: 1px solid #fff;
+aside img {
+    width: 100%;
+    height: auto;
     border-radius: 10px;
-}
-
-aside button:hover {
-    background-color: white;
-    font-weight: bold;
-    color: black;
-    cursor: pointer;
-    border: 1px solid black;
 }
 
 .projects-container {
@@ -396,17 +372,23 @@ footer p {
         padding: 50px 20px 0;
     }
 
-    .social-media {
-        display: none;
+    .profile {
+        padding: 50px 20px;
     }
+
+    /* .social-media {
+        display: none;
+    } */
 
     aside {
         margin-left: 0;
         width: 100%;
+        padding: 20px 0;
     }
 
-    .hero-text {
-        padding-top: 0;
+    aside img {
+        width: 100%;
+        height: auto;
     }
 
     .projects-card {
@@ -422,10 +404,6 @@ footer p {
         width: 100%;
         margin: 10px 0;
     }
-
-    /* form {
-        padding: 20px;
-    } */
 
     .tech-label span {
         display: inline-block;
@@ -459,6 +437,11 @@ footer p {
 }
 
 @media (max-width: 1052px) {
+
+    aside {
+        display: none;
+    }
+
     .tech-stack-card {
         flex-direction: column;
         align-items: center;
@@ -469,13 +452,5 @@ footer p {
         margin: 10px 0;
     }
 
-    /* .contact-form {
-        padding: 0 50px;
-    } */
 }
 
-/* @media (min-width: 1052px) {
-    .contact-form {
-        padding: 0 400px;
-    }
-} */
