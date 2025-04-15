@@ -1,6 +1,8 @@
+<h1>Submission: Tugas Akhir Membuat Website</h1>
+
 Berikut kriteria-kriteria wajib submission yang harus Anda penuhi.
 
-- Terdapat elemen <header>, <footer>, <main>, <article>, dan <aside> di berkas HTML.
+- 'Terdapat elemen '<header>, <footer>, <main>, <article>, dan <aside> di berkas HTML.'
 - Masing-masing elemen wajib berisi konten yang peruntukkannya sesuai dengan elemen tersebut (menerapkan konsep semantic HTML dalam menyusun struktur website).
   Contohnya:
    - Tidak terdapat duplikasi elemen <main>.
