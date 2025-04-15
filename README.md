@@ -2,14 +2,14 @@
 
 Berikut kriteria-kriteria wajib submission yang harus Anda penuhi.
 
-* Terdapat elemen &lt<header>&gt, &lt<footer>&gt, &lt<main>&gt, &lt<article>&gt, dan &lt<aside>&gt di berkas HTML.
+* Terdapat elemen &lt;header&gt;, &lt;footer&gt;, &lt;main&gt;, &lt;article&gt;, dan &lt;aside&gt; di berkas HTML.
 * Masing-masing elemen wajib berisi konten yang peruntukkannya sesuai dengan elemen tersebut (menerapkan konsep semantic HTML dalam menyusun struktur website).
   Contohnya:
-   * Tidak terdapat duplikasi elemen &lt<main>&gt&gt.
-   * Elemen &lt<main>&gt harus berada diantara &lt<header>&gt dan &lt<footer>&gt.
-   * Harus terdapat elemen &lt<header>&gt sebelum &lt<main>&gt dan &lt<footer>&gt sesudah &lt<main>&gt.
-   * Jika terdapat elemen &lt<header>&gt atau &lt<footer>&gt di dalam elemen &lt<article>&gt atau &lt<aside>&gt, maka hal tersebut diperbolehkan.
-* Wajib menampilkan menampilkan foto di elemen &lt<aside>&gt. Anda boleh menampilkan foto diri Anda sekaligus menampilkan biodata lainnya atau Anda juga bisa menampilkan foto yang relevan dengan konten yang Anda tulis.
+   * Tidak terdapat duplikasi elemen &lt;main&gt;&gt.
+   * Elemen &lt;main&gt; harus berada diantara &lt;header&gt; dan &lt;footer&gt;.
+   * Harus terdapat elemen &lt;header&gt; sebelum &lt;main&gt; dan &lt;footer&gt; sesudah &lt;main&gt;.
+   * Jika terdapat elemen &lt;header&gt; atau &lt;footer&gt; di dalam elemen &lt;article&gt; atau &lt;aside&gt;, maka hal tersebut diperbolehkan.
+* Wajib menampilkan menampilkan foto di elemen &lt;aside&gt;. Anda boleh menampilkan foto diri Anda sekaligus menampilkan biodata lainnya atau Anda juga bisa menampilkan foto yang relevan dengan konten yang Anda tulis.
 * Menyusun layout menggunakan flexbox, bukan float.
 * Tema yang ditampilkan bebas, kecuali tema Bandung.
 * Semakin detail dan lengkap website Anda maka nilai submission akan makin tinggi.
