@@ -5,7 +5,7 @@ Berikut kriteria-kriteria wajib submission yang harus Anda penuhi.
 * Terdapat elemen &lt;header&gt;, &lt;footer&gt;, &lt;main&gt;, &lt;article&gt;, dan &lt;aside&gt; di berkas HTML.
 * Masing-masing elemen wajib berisi konten yang peruntukkannya sesuai dengan elemen tersebut (menerapkan konsep semantic HTML dalam menyusun struktur website).
   Contohnya:
-   * Tidak terdapat duplikasi elemen &lt;main&gt;&gt.
+   * Tidak terdapat duplikasi elemen &lt;main&gt;.
    * Elemen &lt;main&gt; harus berada diantara &lt;header&gt; dan &lt;footer&gt;.
    * Harus terdapat elemen &lt;header&gt; sebelum &lt;main&gt; dan &lt;footer&gt; sesudah &lt;main&gt;.
    * Jika terdapat elemen &lt;header&gt; atau &lt;footer&gt; di dalam elemen &lt;article&gt; atau &lt;aside&gt;, maka hal tersebut diperbolehkan.
